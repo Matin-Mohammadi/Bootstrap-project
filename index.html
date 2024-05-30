@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <title>Document</title>
+</head>
+<body>  
+    <div class="container-fluid "> 
+        <div class="row">  
+          <nav class="navbar navbar-expand-lg bg-light text-shadow  mb1 ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./assests/images/logo (1).svg" alt="logo"></a> 
+              <form  class="d-lg-flex d-none " role="search"> 
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon hamburger"></span>
+              </button> 
+      
+              <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute links bg-light  ps-5 pe-5">
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Rooms</a></li>
+                        <li><a class="dropdown-item" href="#">Restaurant</a></li>
+                        <li><a class="dropdown-item" href="#">Travel</a></li>
+                        <li><a class="dropdown-item" href="#">Real Estate</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Template</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Docs
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Contact</a></li>
+                      <li><a class="dropdown-item" href="#">Docs</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Sign in</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sign in </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Sign up</a>
+                  </li>
+                </ul>
+                <form class="position-relative w-100 Add-parent" role="search">
+                  <button class="btn btn-outline-primary float-end" type="submit">Add a Listening</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <div class="holiday text-center text-lg-start d-flex flex-column justify-content-center p-lg-5 bc ">
+            <p class="text-danger  text-shadow ms-lg-5 fw-bold ptaq ">The best holiday experience</p>
+            <h1 class="text-light display-1  fw-bolder  text-shadow ms-lg-5 ">Stay like a local</h1>
+            <!-- This codes for search bar -->
+            <div class="container mt-5 searchbar2">
+
+              <div class="row d-flex justify-content-center">
+      
+                  <div class="col-md-10">
+      
+                      <div class="card p-3  py-4">
+      
+                          <h5>An Easier way to find your Housing</h5>
+      
+                          <div class="row g-3 mt-2">
+      
+                              <div class="col-md-3">
+      
+                                  <div class="dropdown">
+                                    <button class="btn btn-primary  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                                      Categories
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <li><a class="dropdown-item" href="#">Restaurants</a></li>
+                                      <li><a class="dropdown-item" href="#">Hotels</a></li>
+                                      <li><a class="dropdown-item" href="#">Cafes</a></li>
+                                      <li><a class="dropdown-item" href="#">Garages</a></li>
+                                    </ul>
+                                  </div>
+                                  
+                              </div>
+      
+                              <div class="col-md-6">
+      
+                                  <input type="text" class="form-control" placeholder="What are you seraching for?">
+                                  
+                              </div>
+      
+                              <div class="col-md-3">
+      
+                                  <button class="btn btn-primary  btn-block">Search Results</button>
+                                  
+                              </div>
+                              
+                          </div>
+      
+      
+                          <div class="mt-3">
+                              
+        <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="advanced">
+          Advance Search With Filters <i class="fa fa-angle-down"></i>
+        </a>
+       
+      
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            
+           <div class="row">
+      
+              <div class="col-md-4">
+      
+                  <input type="text" placeholder="Property ID" class="form-control">
+                  
+              </div>
+      
+      
+              <div class="col-md-4">
+      
+                  <input type="text" class="form-control" placeholder="Search by MAP">
+                  
+              </div>
+               
+      
+               <div class="col-md-4">
+      
+                  <input type="text" class="form-control" placeholder="Search by Country">
+                  
+              </div>
+               
+           </div>
+      
+        </div>
+      </div>
+      
+      
+                          </div>
+      
+      
+                          
+      
+      
+                  
+                      </div>
+                      
+                  </div>
+                  
+              </div>
+      
+              
+              
+      
+      
+          </div>
+          </div>
+          
+          <div class="vacation text-center mb-5  ">
+            <p class="text-danger fw-bold ptaq">One-of-a-kind vacation rentals</p>
+            <h2 class="mb-5 fw-bold ">Booking with us is easy</h2>
+            <div class="cards container d-flex flex-column flex-lg-row   justify-content-between align-items-center  ">
+              <div class="card text-center d-lg-flex  justify-content-center align-items-center mb-3 mb-lg-0 col-12 col-lg-4">
+                <div class="card-header subject ">
+                  <i class="bi bi-geo-alt-fill display-6 text-center  "></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title  fw-bolder ">Find the perfect rental</h5>
+                  <p class="card-text text-center ">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in</p>
+                </div>
+              </div>
+              <div class="card text-center d-lg-flex  justify-content-center align-items-center mb-3 mb-lg-0 col-12 col-lg-4">
+                <div class="card-header subject ">
+                  <i class="bi bi-credit-card display-6 text-center"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title  fw-bolder ">Book with confidence</h5>
+                  <p class="card-text text-center ">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit</p>
+                </div>
+              </div>
+              <div class="card text-center  d-lg-flex  justify-content-center align-items-center mb-3 mb-lg-0 col-12 col-lg-4">
+                <div class="card-header subject ">
+                  <i class="bi bi-suit-heart display-6 text-center "></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title  fw-bolder ">Enjoy your vacation</h5>
+                  <p class="card-text text-center ">His room, a proper human room although a little too small, lay peacefully between its four familiar</p>
+                </div>
+              </div>
+             
+        
+
+          </div>
+   
+        </div>
+
+        <div class="guides mt-lg-5 mb-5 container ">
+          <div class="text mb-5 ">
+            <p class="text-primary   text-shadow ms-lg-5 fw-bold ptaq ">STAY AND EAT LIKE A LOCAL</p>
+            <h1 class="text-black  display-5   fw-bolder  text-shadow ms-lg-5 ">Our guides</h1>
+          </div>
+          <div class="galleries d-flex justify-content-center align-items-center gap-lg-1    container-fluid  mt-5 ">
+
+            <div class="gallery col-4 col-lg-2  ">
+              <img src="./assests/images/new-york (1).jpg" class="w-100  h-100 ">
+              <div class="text m-2  ">
+                <h6 >NEW YORK</h6>
+                <p >The big apple</p>
+              </div>
+            </div>
+
+            <div class="gallery col-4 col-lg-2  ">
+              <img src="./assests/images/paris (1).jpg" class="w-100  h-100 ">
+              <div class="text m-2  ">
+                <h6 >PARIS</h6>
+                <p class="card-text text-sm">Artist capital of Europe</p>
+              </div>
+            </div>
+
+            <div class="gallery col-4 col-lg-2   ">
+              <img src="./assests/images/prague (1).jpg" class="w-100  h-100 ">
+              <div class="text m-2  ">
+                <h6 >Prague</h6>
+                <p class="card-text text-sm">City of hundred towers</p>
+              </div>
+            </div>
+
+            <div class="gallery col-4 col-lg-2  d-none d-lg-block gallery4">
+              <img src="./assests/images/barcelona.jpg" class="w-100 barcelona ">
+              <div class="text m-2  ">
+                <h6 >BARCELONA</h6>
+                <p class="barcelona-text">Dalí, Gaudí, Barrio Gotico</p>
+              </div>
+            </div>
+
+
+
+            <div class="gallery col-4 col-lg-2 d-none d-lg-block   ">
+              <img src="./assests/images/new-york (1).jpg" class="w-100  h-100 ">
+              <div class="text m-2  ">
+                <h6 >New York</h6>
+                <p >The big apple</p>
+              </div>
+            </div>
+
+
+   
+   
+          </div>
+
+        </div>
+
+        <div class="deals mt-5 mb-5 ">
+          <div class="text mb-5 ">
+            <p class="pink ms-lg-5 fw-bold ptaq ">HURRY UP, THESE ARE EXPIRING SOON.</p>
+            <h1 class="text-black  display-5   fw-bolder  text-shadow ms-lg-5 ">Last minute deals</h1>
+            <!-- This codewss for the deals card -->
+            <div class="row row-cols-1 row-cols-md-2 ">
+              <div class="col col-6 col-lg-3">
+                <div class="card cp">
+                  <img src="./assests/images/photo-1488805990569-3c9e1d76d51c (1).jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a class="text-decoration-none text-dark" href="detail-rooms.html">Modern, Well-Appointed Room</a></h5>
+                    <div class="d-flex justify-content-between align-items-center ">
+                      <p class="card-text d-inline ">private room</p>
+                      <p class="card-text d-inline text-warning text-end "><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$80</span> per night</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col col-6 col-lg-3 ">
+                <div class="card cp">
+                  <img src="./assests/images/photo-1484154218962-a197022b5858.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a class="text-decoration-none text-dark" href="detail-rooms.html">Cute Quirky Garden apt, NYC adjacent</a></h5>
+                    <div class="d-flex justify-content-between align-items-center ">
+                      <p class="card-text d-inline ">Entire apartment</p>
+                      <p class="card-text d-inline  text-end "><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$121</span> per night</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-6 col-lg-3 ">
+                <div class="card cp">
+                  <img src="./assests/images/photo-1494526585095-c41746248156.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cp">
+                    <h5 class="card-title"><a class="text-decoration-none text-dark" href="detail-rooms.html">Modern Apt - Vibrant Neighborhood!</a></h5>
+                    <div class="d-flex justify-content-between align-items-center ">
+                      <p class="card-text d-inline ">private room</p>
+                      <p class="card-text d-inline  text-end "><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill "></i><i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$75</span> per night</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col col-6 col-lg-3">
+                <div class="card cp">
+                  <img src="./assests/images/photo-1426122402199-be02db90eb90.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a class="text-decoration-none text-dark" href="detail-rooms.html">Sunny Private Studio-Apartment</a></h5>
+                    <div class="d-flex justify-content-between align-items-center ">
+                      <p class="card-text d-inline ">shared room</p>
+                      <p class="card-text d-inline  text-end "><i class="bi bi-star-fill text-warning "></i><i class="bi bi-star-fill  text-warning"></i><i class="bi bi-star-fill  text-warning"></i><i class="bi bi-star-fill  text-warning"></i><i class="bi bi-star-fill"></i></p>
+                    </div>
+                    <p class="card-text text-muted"><span class="h4 text-primary">$93</span> per night</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="next-holiday container  bc mt-5 py-lg-5 mb-5 ">
+          <div class="text">
+            <h3 class="display-3 fw-bold text-light  text-shadow  ms-5  ">Ready for your next holidays?</h3>
+            <a class="btn btn-light w-25 ms-5 mt-4 " href="category-rooms.html">Get started</a>
+          </div>          
+          
+        </div>
+
+        <div class="about-us mt-5 mb-5 ">
+          <p class="subtitle text-primary text-center h4 fw-bold  ">Testimonials</p>
+          <h2 class="mb-5 text-center fw-bolder mb-5 ">Our dear customers said about us</h2>
+          <div class="cards mt-5 row d-flex justify-content-center align-items-center  ">
+            <div class="card row mb-3 col-12 col-lg-5 " >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./assests/images/avatar-3 (1).jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-chat-right-quote-fill text-primary display-4"></i></h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <p class="card-text"><strong>Jessica Watson</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card row  mb-3 col-12 col-lg-5 ms-2 " >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./assests/images/avatar-3 (1).jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="bi bi-chat-right-quote-fill text-primary display-4"></i></h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <p class="card-text"><strong>Jessica Watson</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="travel-blog mt-5 mb-5">
+          <p class="subtitle pink  fw-bold ptaq container " data-sider-select-id="0d9a0f76-8bd6-4de5-9663-e9657daba670">Stories from around the globe</p>
+          <h2 class="container fw-bolder ">From our travel blog</h2>
+          <div class="cards mt-5 ">
+            <div class="card-group d-flex flex-column flex-lg-row justify-content-center container ">
+              <div class="mother p-2 col-12 col-lg-4">
+                <div class="card  ">
+                  <img src="./assests/images/travel1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a class="text-uppercase text-decoration-none  text-sm letter-spacing-2 mb-2 " href="#">Travel </a>
+                    <h5 class="card-title"><a class="text-dark text-decoration-none " href="post.html">Autumn fashion tips and tricks </a></h5>
+                    <p class="my-2 text-muted text-sm">Pellentesque habitant morbi tristique senectus. Vestibulum tortor quam, feugiat vitae, ultricies ege...</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted"><a class="btn btn-link ps-0 text-decoration-none " href="post.html">Read more <i class="bi bi-arrow-right text-primary "></i></a></small>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="mother p-2 col-12 col-lg-4">
+                <div class="card ">
+                  <img src="./assests/images/tracel-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a class="text-uppercase text-decoration-none  text-sm letter-spacing-2 mb-2 " href="#">LIVING </a>
+                    <h5 class="card-title"><a class="text-dark text-decoration-none " href="post.html">Newest photo apps </a></h5>
+                    <p class="my-2 text-muted text-sm">ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibu...</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted"><a class="btn btn-link ps-0 text-decoration-none " href="post.html">Read more <i class="bi bi-arrow-right text-primary "></i></a></small>
+                  </div>
+                </div>
+              </div>
+              <div class="mother p-2 col-12 col-lg-4">
+                <div class="card ">
+                  <img src="./assests/images/travel2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a class="text-uppercase text-decoration-none  text-sm letter-spacing-2 mb-2 " href="#">Travel </a>
+                    <h5 class="card-title"><a class="text-dark text-decoration-none " href="post.html">Best books about Photography </a></h5>
+                    <p class="my-2 text-muted text-sm">Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Mauris placerat eleif...</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted"><a class="btn btn-link ps-0 text-decoration-none " href="post.html">Read more <i class="bi bi-arrow-right text-primary "></i></a></small>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-photos d-flex  mt-5 mb-2 ">
+          <div class="image col-2 col-lg-1 bp ">
+            <img src="./assests/images/instagram-1.jpg" alt="">
+          </div>
+          <div class="image col-2 col-lg-1 bp">
+            <img src="./assests/images/instagram-2.jpg" alt="">
+          </div>
+          <div class="image col-2 col-lg-1 bp">
+            <img src="./assests/images/instagram-3.jpg" alt="">
+          </div>
+          <div class="image col-2 col-lg-1 ">
+            <img src="./assests/images/instagram-4.jpg" alt="">
+          </div>
+          <div class="image col-2 col-lg-1 ">
+            <img src="./assests/images/instagram-5.jpg" alt="">
+          </div>
+          <div class="image col-1 ">
+            <img src="./assests/images/instagram-6.jpg" alt="">
+          </div>
+          <div class="image col-1 d-none d-lg-block ">
+            <img src="./assests/images/instagram-7 (1).jpg" alt="">
+          </div>
+          <div class="image col-1 d-none d-lg-block">
+            <img src="./assests/images/instagram-8 (1).jpg" alt="">
+          </div>
+          <div class="image col-1 d-none d-lg-block">
+            <img src="./assests/images/instagram-9.jpg" alt="">
+          </div>
+          <div class="image col-1 d-none d-lg-block">
+            <img src="./assests/images/instagram-10.jpg" alt="">
+          </div>
+          <div class="image col-1 d-none d-lg-block">
+            <img src="./assests/images/instagram-11 (1).jpg" alt="">
+          </div>
+          <div class="image col-1 d-none d-lg-block">
+            <img src="./assests/images/instagram-12.jpg " alt="">
+          </div>
+        </div>
+
+        <div class="footer mt-5 d-flex flex-column justify-content-center  ">
+          <div class="text container d-flex flex-column flex-lg-row ">
+            <div class="col-12 col-lg-4">
+              <div class="fw-bold text-uppercase text-dark mb-3">Directory</div>
+              <p style="font-size: 20px;" class="text-secondary ">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="twitter"><i class="bi bi-twitter"></i></a></li>
+                <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="facebook"><i class="bi bi-facebook"></i></a></li>
+                <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="instagram"><i class="bi bi-instagram"></i></a></li>
+                <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="pinterest"><i class="bi bi-pinterest"></i></a></li>
+                <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="vimeo"><i class="bi bi-vimeo"></i></a></li>
+              </ul>
+
+            </div>
+            <div class="col-6 col-lg-2">
+              <h6 class="text-uppercase text-dark mb-3">Rentals</h6>
+              <ul class="list-unstyled">
+                <li><a class="text-muted text-decoration-none " href="index.html">Rooms</a></li>
+                <li><a class="text-muted text-decoration-none" href="category-rooms.html">Map on top</a></li>
+                <li><a class="text-muted text-decoration-none" href="category-2-rooms.html">Side map</a></li>
+                <li><a class="text-muted text-decoration-none" href="category-3-rooms.html">No map</a></li>
+                <li><a class="text-muted text-decoration-none" href="detail-rooms.html">Room detail</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2">
+              <h6 class="text-uppercase text-dark mb-3" data-sider-select-id="1c851fb7-5f0e-49dc-8dac-69c7f2c9f952">Pages</h6>
+              <ul class="list-unstyled">
+                <li><a class="text-muted text-decoration-none " href="compare.html">Comparison </a></li>
+                <li><a class="text-muted text-decoration-none" href="team.html">Team </a></li>
+                <li><a class="text-muted text-decoration-none" href="contact.html">Contact </a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h6 class="text-uppercase text-dark mb-3">Daily Offers &amp; Discounts</h6>
+              <p class="mb-3 text-secondary " style="font-size: 20px;" > Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+              <div class="input-group mb-3">
+                <input class="form-control bg-transparent border-dark border-end-0" type="email" placeholder="Your Email Address" aria-label="Your Email Address" data-sider-select-id="aa8fb1fa-7698-45d8-b67f-f23654934c6f">
+                <button class="btn btn-outline-dark border-start-0" type="submit"> <i class="bi bi-send"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="copyright  d-flex justify-content-between align-items-center p-4 ">
+            <p class="text-light  ms-5 col-6">© 2021, Your company.  All rights reserved.</p>
+            <ul class="list-inline mb-0 mt-2 mt-md-0 text-center text-md-end col-6 pe-5 container ">
+              <li class="list-inline-item"><img  src="./assests/images/visa (1).svg" alt="..."></li>
+              <li class="list-inline-item"><img  src="./assests/images/mastercard.svg" alt="..."></li>
+              <li class="list-inline-item"><img  src="./assests/images/paypal.svg" alt="..."></li>
+              <li class="list-inline-item"><img src="./assests/images/western-union.svg" alt="..."></li>
+            </ul>
+
+      
+          </div>
+        </div>
+        
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
